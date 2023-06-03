@@ -82,6 +82,8 @@ $ pip install -r requirements.txt
 
 > **Step #5** - Create a new `.env` file using sample `env.sample`
 
+Gen SECRECT_KEY: openssl rand -hex 32
+
 The meaning of each variable can be found below: 
 
 - `DEBUG`: if `True` the app runs in develoment mode
